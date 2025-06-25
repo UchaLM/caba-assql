@@ -15,9 +15,11 @@ body {
 }
 
 header {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
     background-color: var(--rojo-sql);
     color: white;
-    padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,6 +46,7 @@ nav ul li a {
 .hero {
     background-image: url('https://viajandoarg.com/wp-content/uploads/2023/09/Gus-0080.jpg');
     background-size: cover;
+    height: 60vh;
     background-position: center;
     color: #fff;
     padding: 100px 30px;
