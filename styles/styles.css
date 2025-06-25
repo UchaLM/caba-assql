@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@300;400;700&display=swap');
+
+:root {
+    --rojo-sql: #b03c3c;
+    --gris-suave: #f3f3f3;
+    --negro: #222;
+    --verde-btn: #2c3e50;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: var(--gris-suave);
+    color: var(--negro);
+}
+
+header {
+    background-color: var(--rojo-sql);
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+header h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.hero {
+    background-image: url('https://viajandoarg.com/wp-content/uploads/2023/09/Gus-0080.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 30px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    font-family: 'Great Vibes', cursive;
+    color: var(--rojo-sql);
+}
+
+.hero p {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 12px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    margin: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-rojo {
+    background-color: var(--rojo-sql);
+    color: white;
+}
+
+.btn-rojo:hover {
+    background-color: #922b2b;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 2px solid #333;
+    color: #333;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--negro);
+    margin-bottom: 20px;
+}
+
+.contenido-flex {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido-flex img {
+    max-width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+}
+
+.lista-iconos {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-iconos li {
+    margin: 10px 0;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.mapa-ubicacion {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.tarjetas {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tarjeta {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s;
+}
+
+.tarjeta:hover {
+    transform: translateY(-5px);
+}
+
+.tarjeta img {
+    max-width: 300px;
+    max-height: 200px;
+}
+
+
+.tarjeta .contenido {
+    padding: 15px;
+}
+
+.tarjeta h3 {
+    margin-top: 0;
+    font-size: 1.1rem;
+}
+
+.formulario {
+    background: linear-gradient(135deg, #b03c3c 60%, #d24646 40%);
+    padding: 40px;
+    border-radius: 20px;
+    color: white;
+}
+
+.formulario input,
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+.formulario button {
+    background-color: var(--verde-btn);
+    color: white;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.formulario button:hover {
+    background-color: #1a252f;
+}
+
+footer {
+    background-color: var(--rojo-sql);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+footer .logo {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2rem;
+}
+
+footer .contacto {
+    font-size: 1rem;
+}
+
+footer .contacto p {
+    margin: 6px 0;
+}

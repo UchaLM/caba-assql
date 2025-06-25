@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cabañas SQL</title>
+  <link rel="stylesheet" href="/styles/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <header>
+    <h1>Cabaña SQL</h1>
+    <nav>
+      <ul>
+        <li><a href="#complejo">El Complejo</a></li>
+        <li><a href="#ubicacion">Ubicación</a></li>
+        <li><a href="#cabanas">Las Cabañas</a></li>
+        <li><a href="#consultas">Consultas</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Cabañas SQL</h2>
+    <p>Descubrí el poder de las Relaciones</p>
+    <button class="btn btn-rojo">Conócenos</button>
+    <button class="btn btn-outline">Cabañas</button>
+  </section>
+
+  <section id="complejo">
+    <h2>Conoce Nuestro Complejo</h2>
+    <div class="contenido-flex">
+      <div>
+        <p>Ubicado en una calle cerrada contra la montaña, a una cuadra del lago Lacar y a cuatro del centro de la ciudad, es el lugar ideal para descansar estando cerca de todo.</p>
+        <p>Contamos además con:</p>
+        <ul class="lista-iconos">
+          <li><i class="fas fa-swimming-pool"></i> Piscina climatizada</li>
+          <li><i class="fas fa-drumstick-bite"></i> Quincho cerrado con parrilla</li>
+          <li><i class="fas fa-warehouse"></i> Cocheras cubiertas</li>
+          <li><i class="fas fa-child"></i> Juegos infantiles</li>
+          <li><i class="fas fa-sun"></i> Solarium</li>
+        </ul>
+      </div>
+
+  <section id="ubicacion">
+    <h2>Conoce nuestra excelente ubicación</h2>
+    <div class="mapa-ubicacion">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3049.0732281984824!2d-71.35762002451332!3d-40.16292327191447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96110e6d9ab4ef8d%3A0x9c21c7107a633826!2sCnel.%20D%C3%ADaz%201156%2C%20Q8370%20San%20Mart%C3%ADn%20de%20los%20Andes%2C%20Neuqu%C3%A9n!5e0!3m2!1ses!2sar!4v1746832084332!5m2!1ses!2sar" width="350" height="250" allowfullscreen="" loading="lazy"></iframe>
+      <div>
+        <h4>Vas a estar cerca de todo:</h4>
+        <ul>
+          <li>5 minutos de la costanera del lago Lacar.</li>
+          <li>10 minutos del centro del centro cívico.</li>
+          <li>30 minutos del cerro Chapelco.</li>
+          <li>5 minutos del inicio de la ruta de 7 lagos.</li>
+        </ul>
+        <p><i class="fas fa-map-marker-alt"></i> Coronel Diaz 1156, San Martin de los Andes</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="cabanas">
+    <h2>Descubrí el placer de descansar como en casa</h2>
+    <div class="tarjetas">
+      <div class="tarjeta">
+        <img src="data:image/jpeg;base64,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" alt="Cabaña 1">
+        <div class="contenido">
+          <h3>Cabaña para 2 y 3 personas</h3>
+          <p>Refugio ideal para parejas o pequeñas familias que buscan tranquilidad y confort</p>
+          <ul>
+            <li><i class="fas fa-ruler-combined"></i> 20 m2</li>
+            <li><i class="fas fa-wifi"></i> Wifi de alta velocidad</li>
+            <li><i class="fas fa-snowflake"></i> Ambiente climatizado</li>
+            <li><i class="fas fa-utensils"></i> Cocina completa</li>
+          </ul>
+          <button class="btn btn-outline">Ver detalles</button>
+          <button class="btn btn-rojo">Consultar</button>
+        </div>
+      </div>
+
+      <div class="tarjeta">
+        <img src="https://www.interpatagonia.com/plantillas/447-00Li.jpg" alt="Cabaña para 4 personas">
+        <div class="contenido">
+          <h3>Cabaña para 4 personas</h3>
+          <p>Refugio ideal para parejas o pequeñas familias que buscan tranquilidad y confort</p>
+          <ul>
+            <li><i class="fas fa-ruler-combined"></i> 20 m2</li>
+            <li><i class="fas fa-wifi"></i> Wifi de alta velocidad</li>
+            <li><i class="fas fa-snowflake"></i> Ambiente climatizado</li>
+            <li><i class="fas fa-utensils"></i> Cocina completa</li>
+          </ul>
+          <button class="btn btn-outline">Ver detalles</button>
+          <button class="btn btn-rojo">Consultar</button>
+        </div>
+      </div>
+
+      <div class="tarjeta">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQWo7sVEngOfSgRM1r-vTmp2spzeftz44Fmw&s" alt="Cabaña para 4 personas">
+        <div class="contenido">
+          <h3>Cabaña para  personas</h3>
+          <p>Refugio ideal para parejas o pequeñas familias que buscan tranquilidad y confort</p>
+          <ul>
+            <li><i class="fas fa-ruler-combined"></i> 20 m2</li>
+            <li><i class="fas fa-wifi"></i> Wifi de alta velocidad</li>
+            <li><i class="fas fa-snowflake"></i> Ambiente climatizado</li>
+            <li><i class="fas fa-utensils"></i> Cocina completa</li>
+          </ul>
+          <button class="btn btn-outline">Ver detalles</button>
+          <button class="btn btn-rojo">Consultar</button>
+        </div>
+      </div>
+    </div>
+
+    
+  </section>
+
+  <section id="consultas">
+    <h2>Consulta sobre disponibilidad</h2>
+    <form class="formulario">
+      <input type="date" placeholder="Fecha de ingreso">
+      <input type="date" placeholder="Fecha de salida">
+      <input type="text" placeholder="Nombre completo">
+      <input type="text" placeholder="Teléfono">
+      <input type="email" placeholder="Email">
+      <input type="number" placeholder="Adultos">
+      <input type="number" placeholder="Menores">
+      <textarea placeholder="Mensaje"></textarea>
+      <button type="submit">Consultar</button>
+    </form>
+  </section>
+
+  <footer>
+    <div class="logo">
+      <i class="fas fa-database"></i>
+      <p>Cabaña SQL</p>
+    </div>
+    <div class="contacto">
+      <p><i class="fas fa-envelope"></i> cabañas@sma.com.ar</p>
+      <p><i class="fas fa-phone"></i> 2944 - 202020</p>
+      <p><i class="fab fa-whatsapp"></i> 2944 - 202020</p>
+      <p><i class="fas fa-map-marker-alt"></i> Coronel Diaz 1156</p>
+    </div>
+  </footer>
+
+</body>
+</html>
